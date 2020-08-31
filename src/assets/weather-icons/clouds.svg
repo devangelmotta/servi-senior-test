@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<svg width="0" height="0"> 
+    <filter id="filter">
+      <feTurbulence type="fractalNoise" baseFrequency=".01" numOctaves="10" />
+      <feDisplacementMap in="SourceGraphic" scale="180" />
+    </filter>
+</svg>

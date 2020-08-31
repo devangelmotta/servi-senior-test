@@ -1,0 +1,15 @@
+{
+  "home": {
+    "title": "Quickly access the state of the weather in your city. Multilanguage, off-line and on the web."
+  },
+  "dayCard": {
+    "title": ""
+  },
+  "dayWeather": {
+    "title": ""
+
+  },  
+  "notFound": {
+    "title": ""
+  }
+}
