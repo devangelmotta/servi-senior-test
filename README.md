@@ -1,5 +1,6 @@
-# Test project
 
+
+# Test project
 
 
 <h2>Características generales:</h2>
@@ -64,7 +65,7 @@ Clone repository:
 
 First Tab:
 ```sh
- git clone --depth https://github.com/devangelmotta/some-name <FRIENDLY_NAME>
+ git clone --depth https://github.com/devangelmotta/servi-senior-test.git <FRIENDLY_NAME>
 ```
 Instale dependencias: 
 ```sh
@@ -74,4 +75,10 @@ Instale dependencias:
 Dev mode :
 ```sh
  yarn start 
+```
+
+```
+Nota: Lamento que haya quedado faltando tanto. Faltó el responsive, terminar los test, mejorar y explicar el sentido de la UI. Y muchas cosas más.
+Da un poco de pena este proyecto a medias pero no puedo dedicar más tiempo.
+Si sienten que este proyecto no es satisfactorio me gustaría poder presentar otra prueba luego. Es solo que esta ocurrió en un horrible momento.
 ```
