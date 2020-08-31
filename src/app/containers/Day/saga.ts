@@ -19,7 +19,6 @@ export function* getDayData(params) {
       item.map((element)=>{
         let currentDay = new Date(element.dt_txt).getDay()
         if(currentDay === dayIndexWeek) {
-        console.log("index curr ", currentDay, " index dow ", dayIndexWeek)
         selectedItem = item;
       }
       })

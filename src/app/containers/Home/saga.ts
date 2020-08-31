@@ -4,7 +4,8 @@ import { actions } from './slice';
 import { WeatherErrorType } from './types';
 
 export function* getWeatherData() {
-  const requestURL = `http://api.openweathermap.org/data/2.5/forecast?q=Popayan&APPID=a5b77162dae21bb826566df4eb634a31`;
+  const requestURL = `http://api.openweathermap.org/data/2.5/forecast?id=3871336&APPID=a5b77162dae21bb826566df4eb634a31`;
+
   var forecastDays: any[] = [];
   var arrayDayForecast: any[] = [];
   var currentDay: string = "";

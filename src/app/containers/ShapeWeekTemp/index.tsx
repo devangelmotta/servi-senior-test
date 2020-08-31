@@ -26,17 +26,14 @@ export const WeekTemperature = memo((props: Props) => {
   useInjectReducer({ key: sliceKey, reducer: reducer });
   useInjectSaga({ key: sliceKey, saga: weekTemperatureSaga });
 
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const weekTemperature = useSelector(selectWeekTemperature);
   const weekStateData = useSelector(weatherData);
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const dispatch = useDispatch();
 
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { t, i18n } = useTranslation();
   useEffect(()=> {
     dispatch(actions.loadAverage(weekStateData.weatherData))
-  }, [])
+  })
   return (
     <>
       <Helmet>

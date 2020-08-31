@@ -48,7 +48,7 @@ export const Day = memo((props: Props) => {
   const { t, i18n } = useTranslation();
 
   const useEffectOnMount = (effect: React.EffectCallback) => {
-    useEffect(effect, []);
+    useEffect(effect);
 };
 
 loadedDayData.map((element)=>{

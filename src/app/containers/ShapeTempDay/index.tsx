@@ -38,7 +38,7 @@ export const ShapeTempDay = memo((props: Props) => {
     useEffect(effect, []);
   };
 
-  useEffectOnMount(() => {
+  useEffect(() => {
     dispatch(actions.loadData(loadedDayData))
   });
 
